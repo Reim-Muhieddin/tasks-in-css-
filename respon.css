@@ -2,7 +2,6 @@ body {
       margin: 0;
       padding: 0;
     }
-
     .responsive {
       width: 100%;
       padding: 20px;
@@ -11,7 +10,6 @@ body {
       font-size: 1.5rem;
       box-sizing: border-box;
     }
-
     @media (max-width: 768px) {
       .responsive {
         font-size: 1.2rem;
