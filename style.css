@@ -1,0 +1,52 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.typeWriter {
+    font-size: 30px;
+    color: crimson;
+    overflow: hidden;
+    white-space: nowrap; 
+    width: 0;
+    animation: typing 4s steps(30, end) forwards;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 445px;
+        color: rgb(42, 148, 209);
+    }
+}
+
+
+.demo {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(25, 100, 154);
+    margin: 10px auto;
+     transition: transform 1s ease;
+     color: beige;
+     align-content: center;
+     border-radius:20%;
+     padding: 10px;;
+}
+
+
+.translate:hover .demo { transform: translate(20px,-20px); }
+.scaleX:hover .demo { transform: scaleX(1.5); }
+.scaleY:hover .demo { transform: scaleY(1.5); }
+.scale:hover .demo { transform: scale(1.5); }
+.rotate:hover .demo { transform: rotate(45deg); }
+.skewX:hover .demo { transform: skewX(20deg); }
+.skewY:hover .demo { transform: skewY(20deg); }
+.matrix:hover .demo { transform: matrix(1, 0.3, 0.3, 1, 0, 0); }
+

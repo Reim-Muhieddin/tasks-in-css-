@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.con{
+    top: 0;
+    position: relative;
+      width: auto;
+     height: 475px;
+    overflow: hidden;
+     background-size: cover;
+      background-position: center;
+    background-color: rgb(83, 96, 118);
+
+
+}    
+    .circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    border-radius: 50%; 
+    margin: 60px -25px;
+}
+  .circle1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    border-radius: 50%;
+    left: 200px;
+    top: 140px;
+
+}
+  .circle2 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: crimson;
+    border-radius: 50%;
+    right: 200px; 
+    top: -50px;;
+
+}
+  .circle3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: crimson;
+    border-radius: 50%;
+    right: 300px; 
+    top: 300px;
+}
+ .circle4 {
+  position: absolute;
+  top: 320px;
+  left: 830px;
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  border-radius: 50%;
+}
+ /* .circle5 {
+  position: absolute;
+  top: -40px;
+  left: 60px;
+  width: 170px;
+  height: 170px;
+  background-color: rgb(59, 51, 52,0.20);
+  border-radius: 50%;
+  opacity: 2px;
+  z-index: 1;
+  box-shadow: 5px 5px rgba(27, 21, 22, 0.3);;
+} */
+
+
+    .glass-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 350px;
+      height: 400px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      line-height: 200px;
+    }
